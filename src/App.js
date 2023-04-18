@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx';
 import Carousel from './components/Carousel';
 import Category from './components/Category';
 import Models from './components/Models';
+import Highlighted from './components/Highlighted';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Category/>
         </div>
       <Models/>
+      <Highlighted/>
       
     </div>
 

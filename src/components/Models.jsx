@@ -31,7 +31,7 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#C8D6DF"}}></div>
     </div>
   </div>
-  <figure><img src={iphone14pro} alt="iPhone 14 Pro" /></figure>
+  <figure><img src={iphone14pro} alt="iPhone 14 Pro" className='hover:scale-110'/></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
@@ -45,7 +45,7 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#C8D6DF"}}></div>
     </div>
   </div>
-  <figure><img src={ipadmini} alt="iPad Mini" /></figure>
+  <figure><img src={ipadmini} alt="iPad Mini" className='hover:scale-110'/></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
@@ -59,7 +59,7 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#C8D6DF"}}></div>
     </div>
   </div>
-  <figure><img src={airpodsmax} alt="AirPods Max" /></figure>
+  <figure><img src={airpodsmax} alt="AirPods Max" className='hover:scale-110'/></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
@@ -73,7 +73,7 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#C8D6DF"}}></div>
     </div>
   </div>
-  <figure><img src={iphone13} alt="iPhone 13" /></figure>
+  <figure><img src={iphone13} alt="iPhone 13" className='hover:scale-110'/></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
@@ -85,14 +85,14 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#6B6A6E"}}></div>
     </div>
   </div>
-  <figure><img src={watchultra} alt="Watch Ultra" /></figure>
+  <figure><img src={watchultra} alt="Watch Ultra" className='hover:scale-110' /></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
   <div className="card-body">
     <h2 className="card-title">AirPods Pro</h2>
   </div>
-  <figure><img src={airpodspro} alt="AirPods Pro" /></figure>
+  <figure><img src={airpodspro} alt="AirPods Pro" className='hover:scale-110'/></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
@@ -106,7 +106,7 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#C8D6DF"}}></div>
     </div>
   </div>
-  <figure><img src={ipadpro} alt="iPad Pro" /></figure>
+  <figure><img src={ipadpro} alt="iPad Pro" className='hover:scale-110'/></figure>
 </div>
 
 <div className="card bg-base-100 shadow-xl mr-2 mb-2 modelCard">
@@ -116,7 +116,7 @@ function Models() {
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#EDEDED"}}></div>
         <div className="badge badge-xs mr-1" style={{backgroundColor: "#6B6A6E"}}></div>
     </div>
-  <figure><img src={macbookair} alt="Macbook Air" className="absolute right-0 bottom-4"/></figure>
+  <figure><img src={macbookair} alt="Macbook Air" className="absolute right-0 bottom-4 hover:scale-110"/></figure>
   </div>
 </div>
 
