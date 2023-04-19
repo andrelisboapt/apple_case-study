@@ -87,3 +87,131 @@ display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.stockAvailability{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.stockAvailability >p{
+  color: #52A35A;
+  
+}
+.stockAvailability >svg{
+  background-color: #52A35A;
+  color: white;
+  border-radius: 50% ;
+  
+  
+}
+.deliveryDate{
+  color: #52A35A;
+  font-size: 12px;
+}
+
+.actionBtn{
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  
+  
+}
+
+.price{
+  font-size: 21.5px;
+  font-weight:bold;
+  color: #FF4D23;
+}
+
+.carousel > .card-compact{
+  width:auto;
+  border-radius: 1%;
+  
+  
+}
+
+
+.productName{
+  font-size: 13px;
+}
+.productDescription{
+  font-size: 10px;
+  color: #8D929B
+}
+.productID{
+  font-size: 10px;
+  
+}
+.cardBodyItem{
+  gap:0;
+  
+}
+.actionBtn > svg{
+  width: 9%
+  
+}
+.actionText{
+  font-size: 10px;;
+  
+}
+.actionBtn > p{
+  flex-grow: 0;
+}
+.highlightSection{
+  display: flex;
+  
+}
+.appledays{
+  width:14vw;
+ height: 36vh;
+}
+.promoHeader{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  font-size: 34px ;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  color: #001839;
+}
+.radialAppleDays{
+  position: relative;
+  margin-top: 6%;
+  color: #FD6205
+}
+.radialAppleDays > p{
+  color: #001839;
+  font-size: 24px;
+  font-weight: 700;
+  
+}
+.radials{
+  display: flex;
+  position: absolute;
+  margin-top: 6%
+}
+.radialsTime{
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  align-self: center;
+}
+.radialsTime > p{
+  color:#001839;
+  text-align: center;
+  font-weight: 400;
+  font-size: 9px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btnAppleDays{
+  position: absolute;
+  margin-top: 15%;
+  margin-left:2%;
+  font-size: 16px;
+  width: 7%;
+  background-color:white ;
+  border: 0;
+  color:#FF7352;
+  border-radius: 2%;
+
+}
