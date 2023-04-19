@@ -4,20 +4,24 @@ import Carousel from './components/Carousel';
 import Category from './components/Category';
 import Models from './components/Models';
 import Highlighted from './components/Highlighted';
+import Promotion from './components/Promotion';
 
 function App() {
   return (
-    <div className='max-w-7xl mx-auto center'>
+    <div>
     <Navbar/>
+    <div className='max-w-7xl mx-auto center'>
         <Carousel/>
         <div className='center'>
         <Category/>
         </div>
       <Models/>
       <Highlighted/>
-      
-    </div>
+      <Promotion/>
 
+
+    </div>
+    </div>
   );
 }
 
