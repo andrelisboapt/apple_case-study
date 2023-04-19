@@ -17,7 +17,7 @@ function Navbar() {
       <ul tabIndex={0} className="menu menu-compact">
       </ul>
     </div>
-    <img src={logo} alt="" />
+    <img src={logo} alt="PCDIGA Logo" />
     <div>
     <ul className="menu menu-compact grid grid-cols-3">
         <li><a>Top Vendas</a></li>
