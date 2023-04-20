@@ -61,11 +61,11 @@ function Highlighted() {
 
 
   <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><img src={highlight1} alt="Apple iPad Pro (M2)" className='hover:opacity-90'/></figure> 
-  <div className="carousel-item">
+   <figure><img src={highlight1} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="carousel-item carouselHighlight">
 
   <div className="card-body cardBodyItem">
-    <p className="productName leading-tight mb-1" ><b>Apple iPad Pro (M2) 12.9" Wi-Fi + Cellular 256GB Prateado</b>
+    <p className="productName leading-tight mb-1" >Apple iPad Pro (M2) 12.9" Wi-Fi + Cellular 256GB Prateado
 </p>
     <p className="productDescription leading-tight mb-2">Os novos AirPods recriam a experiência auditiva dos auscultadores sem fios. Retire-os da caixa e estão prontos a usar.</p>
     <p className="productID leading-tight mb-2">MV7N2TY/A</p>
@@ -105,12 +105,12 @@ function Highlighted() {
 
 
   <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><img src={highlight2} alt="Apple iPad Pro (M2)" className='hover:opacity-90'/></figure> 
-  <div className="carousel-item">
+   <figure><img src={highlight2} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="carousel-item carouselHighlight">
 
   <div className="card-body cardBodyItem">
-    <p className="productName leading-tight mb-1" ><b>Capa Apple Smart Folio iPad Pro 11" (1ª, 2ª, 3ª e 4ª Geração) Preta
-</b>
+    <p className="productName leading-tight mb-1" >Capa Apple Smart Folio iPad Pro 11" (1ª, 2ª, 3ª e 4ª Geração) Preta
+
 </p>
     <p className="productDescription leading-tight mb-2">Os novos AirPods recriam a experiência auditiva dos auscultadores sem fios. Retire-os da caixa e estão prontos a usar.</p>
     <p className="productID leading-tight mb-2">MV7N2TY/A</p>
@@ -152,12 +152,12 @@ function Highlighted() {
     
   </div> 
   <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><img src={highlight3} alt="Apple iPad Pro (M2)" className='hover:opacity-90'/></figure> 
-  <div className="carousel-item">
+   <figure><img src={highlight3} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="carousel-item carouselHighlight">
 
   <div className="card-body cardBodyItem">
-    <p className="productName leading-tight mb-1" ><b>Capa Teclado Apple Magic Keyboard iPad Pro 12.9" (3ª, 4ª, 5ª e 6ª Geração) 
-</b>
+    <p className="productName leading-tight mb-1" >Capa Teclado Apple Magic Keyboard iPad Pro 12.9" (3ª, 4ª, 5ª e 6ª Geração) 
+
 </p>
     <p className="productDescription leading-tight mb-2">Os novos AirPods recriam a experiência auditiva dos auscultadores sem fios. Retire-os da caixa e estão prontos a usar.</p>
     <p className="productID leading-tight mb-2">MV7N2TY/A</p>
@@ -199,12 +199,12 @@ function Highlighted() {
     
   </div> 
   <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><img src={highlight4} alt="Apple iPad Pro (M2)" className='hover:opacity-90'/></figure> 
-  <div className="carousel-item">
+   <figure><img src={highlight4} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="carousel-item carouselHighlight">
 
   <div className="card-body cardBodyItem">
-    <p className="productName leading-tight mb-1" ><b>Apple AirPods Pro (2ª Geração) Wireless Brancos com Caixa ....
-</b>
+    <p className="productName leading-tight mb-1" >Apple AirPods Pro (2ª Geração) Wireless Brancos com Caixa ....
+
 </p>
     <p className="productDescription leading-tight mb-2">Os novos AirPods recriam a experiência auditiva dos auscultadores sem fios. Retire-os da caixa e estão prontos a usar.</p>
     <p className="productID leading-tight mb-2">MV7N2TY/A</p>
@@ -246,13 +246,13 @@ function Highlighted() {
     
   </div> 
   <div className="card card-compact cardProducts ml-2 bgLight rounded-none" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 0%, 50% 100%, 0 100%)' }}>
-   <figure><img src={highlight5} alt="Apple iPad Pro (M2)" className='hover:opacity-90'/></figure> 
-  <div className="carousel-item">
+   <figure><img src={highlight5} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="carousel-item carouselHighlight">
 
   <div className="card-body cardBodyItem">
-    <p className="productName leading-tight mb-1" ><b>Apple iPad Pro (M2) 12.9" Wi-Fi + Cellular 256GB Prateado
+    <p className="productName leading-tight mb-1" >Apple iPad Pro (M2) 12.9" Wi-Fi + Cellular 256GB Prateado
 
-</b>
+
 </p>
     <p className="productDescription leading-tight mb-2">Os novos AirPods recriam a experiência auditiva dos auscultadores sem fios. Retire-os da caixa e estão prontos a usar.</p>
     <p className="productID leading-tight mb-2">MV7N2TY/A</p>

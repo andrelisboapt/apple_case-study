@@ -17,49 +17,49 @@ function Category() {
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={todos} alt="All items" className='categoryImg' /></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">Todos</p>
+    <p className="hover:text-black-500 hover:underline categoryText">Todos</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={mac} alt="All items" className='categoryImg' /></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">Mac</p>
+    <p className="hover:text-black-500 hover:underline categoryText">Mac</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={ipad} alt="All items" className='categoryImg' /></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">iPad</p>
+    <p className="hover:text-black-500 hover:underline categoryText">iPad</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={iphone} alt="All items" className='categoryImg'/></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">iPhone</p>
+    <p className="hover:text-black-500 hover:underline categoryText">iPhone</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={watch} alt="All items" className='categoryImg'/></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">Apple Watch</p>
+    <p className="hover:text-black-500 hover:underline categoryText">Apple Watch</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={airpods} alt="All items" className='categoryImg'/></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">AirPods</p>
+    <p className="hover:text-black-500 hover:underline categoryText">AirPods</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={appletv} alt="All items" className='categoryImg'/></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">Apple TV 4K</p>
+    <p className="hover:text-black-500 hover:underline categoryText">Apple TV 4K</p>
   </div>
 </div>
 <div className="card card-compact w-30 categoryCard hover:scale-110">
   <figure><img src={accessories} alt="All items" className='categoryImg'/></figure>
   <div className="card-body">
-    <p class="hover:text-black-500 hover:underline categoryText">Accessories</p>
+    <p className="hover:text-black-500 hover:underline categoryText">Accessories</p>
   </div>
 </div>
     

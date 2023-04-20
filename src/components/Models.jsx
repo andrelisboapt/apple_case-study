@@ -20,7 +20,7 @@ function Models() {
     <div className="cardsModels">
 
 
-<div className="card bgLight mr-2 mb-4 modelCard">
+<div className="card bgLight mr-2 mb-2 modelCard">
   <div className="card-body">
     <h2 className="card-title modelTitle">iPhone 14 Pro</h2>
     <div className="colorsModel">
@@ -34,7 +34,7 @@ function Models() {
   <figure><img src={iphone14pro} alt="iPhone 14 Pro" className='hover:scale-110'/></figure>
 </div>
 
-<div className="card bgLight mr-2 mb-4 modelCard">
+<div className="card bgLight mr-2 mb-2 modelCard">
   <div className="card-body">
     <h2 className="card-title modelTitle">iPad mini</h2>
     <div className="colorsModel">
@@ -48,7 +48,7 @@ function Models() {
   <figure><img src={ipadmini} alt="iPad Mini" className='hover:scale-110'/></figure>
 </div>
 
-<div className="card bgLight mr-2 mb-4 modelCard">
+<div className="card bgLight mr-2 mb-2 modelCard">
   <div className="card-body">
     <h2 className="card-title modelTitle">AirPods Max</h2>
     <div className="colorsModel">
@@ -62,7 +62,7 @@ function Models() {
   <figure><img src={airpodsmax} alt="AirPods Max" className='hover:scale-110'/></figure>
 </div>
 
-<div className="card bgLight mr-2 mb-4 modelCard">
+<div className="card bgLight mr-2 mb-2 modelCard">
   <div className="card-body">
     <h2 className="card-title modelTitle">iPhone 13</h2>
     <div className="colorsModel">

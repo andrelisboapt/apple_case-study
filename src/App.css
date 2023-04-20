@@ -13,10 +13,17 @@ display: flex;
   height: 86px;
 }
 
+.menu > li > a{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color:#000000;
+}
+
 .searchBar{
   display: flex;
   background-color: #F6F6F6;
-  align-items: center;
+  width:100vw;
   
 }
 .sunIcon{
@@ -24,11 +31,24 @@ display: flex;
 
 }
 
-#flexSwitchChecked{
-  background-color: #000000;
-
-
+.saveEnergy{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  margin-right: 2vw;
 }
+
+.block{
+  background-color: #00000061;
+}
+
+.toggleNav{
+  background-color: #00000061;
+  
+}
+
+
 
 .rightIcons{
   display:flex;
@@ -78,7 +98,8 @@ display: flex;
 }
 
 .modelCard{
-  width: 24.3%
+  width: 24.3%;
+  border-radius: 7px;
 }
 
 .subtitles{
@@ -142,6 +163,9 @@ display: flex;
 
 .productName{
   font-size: 13px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#000000;
 }
 .productDescription{
   font-size: 10px;
@@ -303,7 +327,7 @@ font-weight:400;
 .newsletter{
   background-color: #FF4D23;
   width: 40%;
-  position: absolute;
+  
   margin-top: -2%;
   display: flex;
   align-content:space-between
@@ -338,4 +362,58 @@ font-weight:400;
   font-weight: 400;
   font-size: 12px;
 
+}
+
+.productImg{
+  width: 222px;
+  height: 222px;
+}
+
+.carousel {
+  width: 100%;
+  padding-right: -30px;
+  margin: 0;
+}
+
+.carouselHighlight{
+  width: 9.3vw; 
+}
+
+.carouselPromo{
+  left: 0;
+  width: 9.7vw; 
+}
+
+.paymentSection{
+  display: flex;
+  flex-direction: row;
+  align-content:space-between;
+  margin-left: -2%;
+}
+
+.paymentMethods{
+  margin-right:60%
+
+}
+
+.promoItem{
+  height: 15vh;
+}
+
+.discount{
+  background-color: #F5CC45;
+  color:#000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  height: 34px;
+  width: 55px;
+  text-align: center;
+  margin-left: 5vw;
+  
+
+}
+
+.discountWatch{
+  margin-left: 6.6vw;
 }

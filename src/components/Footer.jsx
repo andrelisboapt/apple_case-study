@@ -1,16 +1,18 @@
 import React from 'react'
 import logo from '../assets/logo.png';
 import socials from "../assets/socials.png"
+import payments from "../assets/payments.png"
+import trustpilot from "../assets/trustpilot.png"
 
 function Footer() {
   return (
-    <div className="footerSection bgLight">
-        <div className="newsletter rounded">
-            <div className="m-7">
+    <div className="footerSection bgLight flex flex-wrap">
+        <div className="newsletter rounded w-full sm:w-1/2 lg:w-1/3 flex flex-col sm:flex-row">
+            <div className="mt-7 mb-7 ml-7">
                 <p className="newsletterTitle">RECEBA AS PROMOÇÕES, NOVIDADES E DIAS PCDIGUIANOS.</p>
                 <p className="newsletterContent">Diretamente no seu Email</p>
             </div>
-            <div class="relative text-gray-600 m-7 newsletterBox">
+            <div className="relative text-gray-600 mt-7 mb-7 ml-7 newsletterBox">
   <input type="search" name="serch" placeholder="Insira aqui o seu email" className="bg-white h-10 px-5 pr-10 rounded text-sm focus:outline-none newsletterInput"/>
   <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 4 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 newsletterIcon">
@@ -31,7 +33,7 @@ function Footer() {
 
 
 
-<footer className="max-w-7xl mx-auto center w-full p-10 bgLight text-base-content mt-10">
+<footer className="max-w-7xl mx-auto center w-full p-10 bgLight text-base-content ">
     <div className="footer">
   <div>
   <img src={logo} alt="PCDIGA Logo" />
@@ -74,7 +76,18 @@ function Footer() {
   </div>
 </footer>
 
+<div className="paymentSection max-w-6xl w-full">
+  <div className="float-left paymentMethods">
 
+<img src={payments} alt="Payment Methods" />
+
+  </div>
+  
+  <div className="float-right">
+<img src={trustpilot} alt="Trustpilot Certificate"/>
+
+  </div>
+</div>
 
 
 
