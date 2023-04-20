@@ -39,8 +39,8 @@ function Promotion() {
 
 
 
-  <div className="card card-compact cardProducts bgLight rounded-none" >
-   <figure><p className='absolute discount rounded'>-10€</p><img src={promo1} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="card card-compact cardProducts bgLight rounded-none hover:opacity-90" >
+   <figure><p className='absolute discount rounded'>-10€</p><img src={promo1} alt="Apple iPad Pro (M2)" className=' promoItem'/></figure> 
   <div className="carousel-item carouselPromo">
 
   <div className="card-body cardBodyItem">
@@ -59,9 +59,13 @@ function Promotion() {
 
 </div>
 <p className="ml-6 deliveryDate leading-tight mb-2">Entrega prevista a partir de 17 JAN</p>
-
+<div className="flex">
 <p className="price leading-tight mb-2">169,00€</p>
-
+<div>
+<p className="pvpr leading-tight">PVPR</p>
+<p className="noDiscount leading-tight">179,00€</p>
+</div>
+</div>
 <div className="actionBtn">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-1">
   <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -82,8 +86,8 @@ function Promotion() {
 
   </div> 
   
-  <div className="card card-compact cardProducts ml-2 bgLight rounded-none ">
-   <figure><p className='absolute discount rounded'>-150€</p><img src={promo2} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="card card-compact cardProducts ml-2 bgLight rounded-none hover:opacity-90">
+   <figure><p className='absolute discount rounded'>-150€</p><img src={promo2} alt="Apple iPad Pro (M2)" className='promoItem'/></figure> 
   <div className="carousel-item carouselPromo">
 
   <div className="card-body cardBodyItem">
@@ -102,7 +106,13 @@ function Promotion() {
 </div>
 <p className="ml-6 deliveryDate leading-tight mb-2">Entrega prevista a partir de 17 JAN</p>
 
+<div className="flex">
 <p className="price leading-tight mb-2">169,00€</p>
+<div>
+<p className="pvpr leading-tight">PVPR</p>
+<p className="noDiscount leading-tight">179,00€</p>
+</div>
+</div>
 
 <div className="actionBtn">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-1">
@@ -127,8 +137,8 @@ function Promotion() {
     
 
 
-  <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><p className='absolute discount rounded discountWatch'>-20€</p><img src={promo3} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="card card-compact cardProducts ml-2 bgLight rounded-none hover:opacity-90">
+   <figure><p className='absolute discount rounded discountWatch'>-20€</p><img src={promo3} alt="Apple iPad Pro (M2)" className='promoItem'/></figure> 
   <div className="carousel-item carouselPromo">
 
   <div className="card-body cardBodyItem">
@@ -147,7 +157,13 @@ function Promotion() {
 </div>
 <p className="ml-6 deliveryDate leading-tight mb-2">Entrega prevista a partir de 17 JAN</p>
 
+<div className="flex">
 <p className="price leading-tight mb-2">169,00€</p>
+<div>
+<p className="pvpr leading-tight">PVPR</p>
+<p className="noDiscount leading-tight">179,00€</p>
+</div>
+</div>
 
 <div className="actionBtn">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-1">
@@ -174,8 +190,8 @@ function Promotion() {
 
     
   </div> 
-  <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><p className='absolute discount rounded discountWatch top-8'>-40€</p><img src={promo4} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="card card-compact cardProducts ml-2 bgLight rounded-none hover:opacity-90">
+   <figure><p className='absolute discount rounded discountWatch top-8'>-40€</p><img src={promo4} alt="Apple iPad Pro (M2)" className='promoItem'/></figure> 
   <div className="carousel-item carouselPromo">
 
   <div className="card-body cardBodyItem">
@@ -195,7 +211,13 @@ function Promotion() {
 </div>
 <p className="ml-6 deliveryDate leading-tight mb-2">Entrega prevista a partir de 17 JAN</p>
 
+<div className="flex">
 <p className="price leading-tight mb-2">169,00€</p>
+<div>
+<p className="pvpr leading-tight">PVPR</p>
+<p className="noDiscount leading-tight">179,00€</p>
+</div>
+</div>
 
 <div className="actionBtn">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-1">
@@ -222,8 +244,8 @@ function Promotion() {
 
     
   </div> 
-  <div className="card card-compact cardProducts ml-2 bgLight rounded-none">
-   <figure><p className='absolute discount rounded discountWatch'>-5€</p><img src={promo5} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="card card-compact cardProducts ml-2 bgLight rounded-none hover:opacity-90">
+   <figure><p className='absolute discount rounded discountWatch'>-5€</p><img src={promo5} alt="Apple iPad Pro (M2)" className='promoItem'/></figure> 
   <div className="carousel-item carouselPromo">
 
   <div className="card-body cardBodyItem">
@@ -243,7 +265,13 @@ function Promotion() {
 </div>
 <p className="ml-6 deliveryDate leading-tight mb-2">Entrega prevista a partir de 17 JAN</p>
 
+<div className="flex">
 <p className="price leading-tight mb-2">169,00€</p>
+<div>
+<p className="pvpr leading-tight">PVPR</p>
+<p className="noDiscount leading-tight">179,00€</p>
+</div>
+</div>
 
 <div className="actionBtn">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-1">
@@ -270,8 +298,8 @@ function Promotion() {
 
     
   </div> 
-  <div className="card card-compact cardProducts ml-2 bgLight rounded-none" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 0%, 50% 100%, 0 100%)' }}>
-   <figure><img src={promo6} alt="Apple iPad Pro (M2)" className='hover:opacity-90 promoItem'/></figure> 
+  <div className="card card-compact cardProducts ml-2 bgLight rounded-none hover:opacity-90" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 0%, 50% 100%, 0 100%)' }}>
+   <figure><img src={promo6} alt="Apple iPad Pro (M2)" className='promoItem'/></figure> 
   <div className="carousel-item carouselPromo">
 
   <div className="card-body cardBodyItem">
@@ -291,7 +319,13 @@ function Promotion() {
 </div>
 <p className="ml-6 deliveryDate leading-tight mb-2">Entrega prevista a partir de 17 JAN</p>
 
+<div className="flex">
 <p className="price leading-tight mb-2">169,00€</p>
+<div>
+<p className="pvpr leading-tight">PVPR</p>
+<p className="noDiscount leading-tight">179,00€</p>
+</div>
+</div>
 
 <div className="actionBtn">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-1">
